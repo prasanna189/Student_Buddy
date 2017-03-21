@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adavi.studentbuddy.MainActivity"
+    android:padding="16dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:onClick="subject"
+            android:id="@+id/subjects_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:onClick="marks"
+            android:id="@+id/marks_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marks"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:onClick="events"
+            android:id="@+id/events_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:onClick="timetable"
+            android:id="@+id/timetable_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Table"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
