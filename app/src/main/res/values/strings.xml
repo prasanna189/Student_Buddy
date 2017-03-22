@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Student Buddy</string>
-    <string name="title_activity_display_subjects">DisplaySubjectsActivity</string>
+    <string name="title_activity_display_subjects">Subjects</string>
 </resources>
